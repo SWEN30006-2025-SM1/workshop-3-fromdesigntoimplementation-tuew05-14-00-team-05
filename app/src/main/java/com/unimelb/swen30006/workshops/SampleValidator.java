@@ -6,6 +6,8 @@ import java.util.ArrayList;
  * Created by mat on 10/02/2016.
  */
 public class SampleValidator implements SubmissionValidator{
+    private ArrayList<Submission> submissions;
+
 
     @Override
     public ValidationError[] validateSubmission(Submission submission) {
